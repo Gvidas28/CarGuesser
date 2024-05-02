@@ -1,0 +1,8 @@
+CREATE TABLE `sessions` (
+    `Id` INT AUTO_INCREMENT PRIMARY KEY,
+    `SessionId` VARCHAR(255) NOT NULL,
+    `Difficulty` TINYINT NOT NULL,
+    `RemainingLives` INT NOT NULL,
+    `Score` INT NOT NULL,
+    UNIQUE KEY `uk_sessions_SessionId` (`SessionId`)
+);

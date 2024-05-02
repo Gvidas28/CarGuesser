@@ -1,0 +1,182 @@
+.background-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+}
+
+.side-bar {
+  position: sticky;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(86, 63, 237);
+}
+
+.game-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 5;
+  background-color: rgb(2, 24, 84);
+}
+
+.game-screen-inner {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 24, 84);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-over-screen {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(2, 24, 84);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-over-title {
+  color: rgb(202, 214, 225);
+  font-size: 100px;
+}
+
+.game-over-text {
+  color: rgb(202, 214, 225);
+  font-size: xx-large;
+}
+
+.game-title {
+  color: rgb(202, 214, 225);
+  font-size: xx-large;
+}
+
+.options-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 25%;
+}
+
+.guess-description-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(111, 129, 178);
+  border-radius: 10px;
+  border: solid;
+  border-width: 5px;
+  border-color: rgb(27, 139, 220);
+  width: 50%;
+  height: 35%;
+  margin-top: 50px;
+}
+
+.guess-description-text {
+  color: rgb(202, 214, 225);
+  font-size: large;
+}
+
+.option {
+  width: 200px;
+  height: 80%;
+  margin: 0 10px;
+  border-radius: 10px;
+  border: solid;
+  border-width: 5px;
+  border-color: rgb(27, 139, 220);
+}
+
+.option-image {
+  width: 100%;
+  height: 100%;
+}
+
+.option-image:hover {
+  cursor: pointer;
+}
+
+.option-text {
+  color: rgb(202, 214, 225);
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin-top: 5px;
+}
+
+.session-information {
+  color: rgb(202, 214, 225);
+  font-size: large;
+}
+
+.side-bar-part {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-bar-title {
+  font-size: x-large;
+  margin-bottom: 20px;
+  color: rgb(202, 214, 225);
+}
+
+.difficulty-button {
+  width: 50%;
+  text-align: center;
+  background-color: rgb(164, 180, 224);
+  margin-top: 5px;
+  border-radius: 10px;
+  padding: 10px;
+  border: solid;
+  border-width: 2px;
+}
+
+.difficulty-button.selected {
+  background-color: rgb(111, 129, 178);
+}
+
+.start-game-button {
+  width: 50%;
+  background-color: rgb(2, 24, 84);
+  color: rgb(202, 214, 225);
+  border-radius: 10px;
+  padding: 10px;
+  border: solid;
+  border-width: 2px;
+  margin-top: 5px;
+}
+
+.save-score-button {
+  width: 30%;
+  font-size: xx-large;
+  background-color: rgb(2, 24, 84);
+  color: rgb(202, 214, 225);
+  border-radius: 10px;
+  padding: 10px;
+  border: solid;
+  border-width: 2px;
+}
+
+.save-score-input {
+  width: 30%;
+  font-size: xx-large;
+  text-align: center;
+  background-color: rgb(2, 24, 84);
+  color: rgb(202, 214, 225);
+  border-radius: 10px;
+  padding: 10px;
+  border: solid;
+  border-width: 2px;
+  margin: 15px 0;
+}
